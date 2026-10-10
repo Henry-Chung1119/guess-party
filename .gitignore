@@ -1,0 +1,6 @@
+node_modules
+dist
+.swc
+.DS_Store
+cloudfunctions/game/node_modules
+cloudfunctions/game/dist

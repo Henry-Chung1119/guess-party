@@ -1,0 +1,31 @@
+.code-card {
+  text-align: center;
+  padding-top: 44px;
+}
+.code-card__code {
+  display: block;
+  margin: 12px 0 6px;
+  font-size: 104px;
+  font-weight: 900;
+  letter-spacing: 14px;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.code-card__hint {
+  display: block;
+  font-size: 25px;
+  color: #a69bb8;
+  margin-bottom: 30px;
+}
+.kick {
+  flex: none;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2PX solid rgba(42, 30, 63, 0.25);
+  border-radius: 50%;
+  color: #6f6386;
+  font-size: 28px;
+}

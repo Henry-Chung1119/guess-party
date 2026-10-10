@@ -1,0 +1,50 @@
+.home__hero {
+  padding: 36px 8px 44px;
+}
+.home__tagline {
+  display: block;
+  margin-top: 14px;
+  font-size: 32px;
+  color: #6f6386;
+  line-height: 1.5;
+}
+.home__stamp {
+  display: inline-block;
+  margin-top: 22px;
+  padding: 6px 18px;
+  border: 3PX solid #2a1e3f;
+  border-radius: 14px;
+  font-size: 24px;
+  font-weight: 800;
+  background: #ffc53d;
+  transform: rotate(-2deg);
+}
+.home__divider {
+  display: flex;
+  align-items: center;
+  margin: 8px 0 28px;
+  color: #a69bb8;
+  font-size: 24px;
+}
+.home__divider::before,
+.home__divider::after {
+  content: '';
+  flex: 1;
+  height: 2PX;
+  background: rgba(42, 30, 63, 0.12);
+}
+.home__divider text {
+  padding: 0 20px;
+}
+.resume {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.resume__code {
+  display: block;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 6px;
+  font-variant-numeric: tabular-nums;
+}

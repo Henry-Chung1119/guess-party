@@ -1,0 +1,20 @@
+{
+  "miniprogramRoot": "dist/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "projectname": "guess-party",
+  "description": "猜猜看：多人匿名投票猜測遊戲",
+  "appid": "請填入你的小程序 AppID",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "enhance": false,
+    "postcss": false,
+    "minified": false,
+    "coverView": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "3.4.0",
+  "srcMiniprogramRoot": "dist/",
+  "packOptions": { "ignore": [], "include": [] },
+  "condition": {}
+}
